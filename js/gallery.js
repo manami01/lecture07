@@ -6,7 +6,9 @@ var photoList = [
 	  {src: "img/200902.png", title: "9月"},
 	  {src: "img/201008.png", title: "もう1回8月"},
     {src: "img/front.png", title: "前"},
+    {src: "img/indexinu.png", title: "犬"},
     {src:	"img/side.png", title: "横"}
+
 ];
 
 var isReady = function(){
