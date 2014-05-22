@@ -39,7 +39,11 @@ var calcMean = function(){
     if(n > 0){
         outputMean.textContent = sum / n;
     }
+    else{
+       alert("最低１つ数値を入力してください")
+    }
 };
+
 
 var calcStats = function(){
     calcMean();
