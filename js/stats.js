@@ -44,18 +44,12 @@ var calcMean = function(){
     }
 };
 
-var calcMax = function(){
-    var index = 0;
-    var sum = 0;
-    var n = 0;
-
-    while(index < inputElements.length){
-        var input = inputElements[index];
-        var number = Number(input.value);
-        if(sum < Number){
-            sum = Number;
-        }
-    }
+var Max = CalcMax(rows_po,rows_ec,rows_ot){
+    var max_row = new Array(a,b,c); 
+  var max_num = max_row[0];
+  for(var i=1; i<max_row.length; i++)
+    if(max_row[i]>max_num) max_num = max_row[i];
+  return max_num;
 }
 
 
