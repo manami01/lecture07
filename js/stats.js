@@ -44,6 +44,22 @@ var calcMean = function(){
     }
 };
 
+var calcMax = function(){
+    var index = 0;
+    var sum = 0;
+    var n = 0;
+
+    while(index < inputElements.length){
+        var input = inputElements[index];
+        var number = Number(input.value);
+        if(sum < Number){
+            sum = Number;
+        }
+    }
+}
+
+
+
 
 var calcStats = function(){
     calcMean();
