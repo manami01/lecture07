@@ -35,6 +35,10 @@ var calcMean = function(){
         }
         index = index + 1;
     }
+    while(Number > sum){
+        sum = Number
+    }
+
 
     if(n > 0){
         outputMean.textContent = sum / n;
